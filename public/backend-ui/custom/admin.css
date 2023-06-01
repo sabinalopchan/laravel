@@ -1,0 +1,59 @@
+
+.admin-login{
+    margin-top: 7rem;
+    margin-left: 14rem;
+    height: 30rem;
+    width:25rem;
+    border-radius: 2rem;
+    background: #e1e2e3;
+    padding: 2rem;
+    font-size: 18px;
+}
+.admin-login h2{
+   margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.admin-login h2 i{
+ color: dodgerblue;
+}
+label{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+button{
+    height: 40px;
+    width: 400px;
+    background: rgb(226, 38, 38);
+}
+
+@media screen and (max-width:480px){
+    .admin-login{
+        margin: auto;
+        margin-top:4rem;
+        height: 23rem;
+        width:18rem;
+        border-radius: 2rem;
+        background: #e1e2e3;
+        padding: 1rem;
+        font-size: 10px;
+    }
+    .admin-login h2{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .admin-login h2 i{
+        color: dodgerblue;
+    }
+    label{
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    button{
+        height: 30px;
+        width: 100px;
+        background: rgb(226, 38, 38);
+    }
+
+}
